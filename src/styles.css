@@ -1,0 +1,15 @@
+.container{
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.container button{
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+ul li{
+    margin-bottom: 10px;
+}
