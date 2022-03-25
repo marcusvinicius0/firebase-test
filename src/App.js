@@ -27,7 +27,7 @@ function App() {
          setEmail('');
          setSenha('');
        })
-
+       alert('Usuário cadastrado com sucesso.')
       })
       .catch((error) => {
         if (error.code === 'auth/weak-password') {
@@ -41,6 +41,8 @@ function App() {
   async function logOut() {
     await firebase.auth().signOut();
     setUser({});
+    setEmail('');
+    setSenha('');
   }
 
   async function login(){
