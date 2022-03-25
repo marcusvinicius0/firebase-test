@@ -1,7 +1,7 @@
 # firebase and react.js 
 
 
-<img src="./src/assets/firebase.gif">
+<img src="./src/Assets/firebase.gif">
 
 >◾ Making registration, login/logout; using useEffect, firebase library, async await.
 
